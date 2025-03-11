@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PetStore Test Suite]">
+  <test thread-count="5" name="PetStore Functional Tests(failed)">
+    <classes>
+      <class name="com.petstore.tests.GetPetIdTest">
+        <methods>
+          <include name="getSpecificPet"/>
+        </methods>
+      </class> <!-- com.petstore.tests.GetPetIdTest -->
+    </classes>
+  </test> <!-- PetStore Functional Tests(failed) -->
+</suite> <!-- Failed suite [PetStore Test Suite] -->
